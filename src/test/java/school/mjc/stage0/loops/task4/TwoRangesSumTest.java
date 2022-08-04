@@ -20,7 +20,7 @@ class TwoRangesSumTest extends BaseIOTest {
 
         rangesSum.printSumOfTwoRanges(15, 10);
 
-        assertOutEquals("number to skip is bugger then the last\n");
+        assertOutEquals("\n");
     }
 
     @Test
