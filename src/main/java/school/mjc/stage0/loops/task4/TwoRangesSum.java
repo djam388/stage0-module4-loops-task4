@@ -13,7 +13,7 @@ public class TwoRangesSum {
                 sumIteratedNumber += counter;
             }
             System.out.println("skipped sum is " + sumSkippedNumber);
-            System.out.println("counted sum is number " + sumIteratedNumber);
+            System.out.println("counted sum is " + sumIteratedNumber);
         } else if (numberToSkip > lastInRow) {
             System.out.println("number to skip is bugger then the last");
         } else if (lastInRow < 0) {
